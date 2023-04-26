@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Contatos</h1>
+            <img src="../../assets/logout.svg" alt="icone de logout" class="logout">
+        </header>
+
+        <main>
+
+            <button class="button-success button-Adicionar">ADICIONAR</button>
+
+            <ul>
+                <li class="ul-header">
+                    <span>Nome</span>
+                    <span>Email</span>
+                    <span>Telefone</span>
+                </li>
+                <li>
+                    <span> Claudia M. Sousa</span>
+                    <span>claudia@teste.com.br</span>
+                    <span>Telefone: (99)9999-9999</span>
+                    <img src="../../assets/icon-trash.svg" alt="icone-deletar" class="pointer icon-Deletar">
+                </li>
+                <li>
+                    <span>Pedro Henrique</span>
+                    <span>pedro.henrque@teste.com.br</span>
+                    <span>Telefone: (99)9999-9999</span>
+                    <img src="../../assets/icon-trash.svg" alt="icone-deletar" class="pointer icon-Deletar">
+                </li>
+                <li>
+                    <span>Marina Tavares</span>
+                    <span>marina_tavares@teste.com.br</span>
+                    <span>Telefone: (99)9999-9999</span>
+                    <img src="../../assets/icon-trash.svg" alt="icone-deletar" class="pointer icon-Deletar">
+                </li>
+                <li>
+                    <span>Daniel Lopes</span>
+                    <span>daniel.lopes@cubos.academy</span>
+                    <span>Telefone: (99)9999-9999</span>
+                    <img src="../../assets/icon-trash.svg" alt="icone-deletar" class="pointer icon-Deletar">
+                </li>
+                <li>
+                    <span>Guido Cerqueira</span>
+                    <span>guido.cerqueira@cubos.academy</span>
+                    <span>Telefone: (99)9999-9999</span>
+                    <img src="../../assets/icon-trash.svg" alt="icone-deletar" class="pointer icon-Deletar">
+                </li>
+            </ul>
+        </main>
+
+        <dialog class="dialog-add">
+            <img src="../../assets/icon-close-dialog.svg" alt="close dialog" class="close-dialog-img close-dialog">
+            
+            <p class="p-add-dialog">Novo Contato</p>
+
+            <input type="text" class="input-add-dialog" placeholder="Nome">
+            <input type="email" class="input-add-dialog" placeholder="Email">
+            <input type="tel" class="input-add-dialog" placeholder="Telefone">
+
+            <button class="button-success button-success-dialog close-dialog">ADICIONAR</button>
+            <button type="reset" class="button-danger button-danger-dialog close-dialog">LIMPAR</button>
+        </dialog>
+
+        <dialog class="dialog-delete">
+            <img src="../../assets/icon-close-dialog.svg" alt="close dialog" class="close-dialog-img close-dialog">
+
+            <p class="p-first-delete-dialog">Confirmar a exclusão?</p>
+            <p class="p-second-delete-dialog">Deseja excluir o contato?</p>
+
+            <button class="button-success button-success-dialog close-dialog">EXCLUIR</button>
+            <button class="button-danger button-danger-dialog close-dialog">CANCELAR</button>
+        </dialog>
+    </div>
+</body>
+<script src="home.js"></script>
+
+</html>

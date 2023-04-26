@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap');
+
+.container {
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #134563;
+    font-family: 'Rokkitt', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.logout {
+    width: 18px;
+    position: absolute;
+    right: 32px;
+    cursor: pointer;
+}
+
+main {
+    width: 956px;
+}
+
+.button-success{
+    margin: 102px 0 32px;
+    width: 235px;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Roboto';
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 46px;
+    background-color: #FFFAFA;
+}
+
+span {
+    display: inline-block;
+    flex-grow: 1;
+    margin: 0 10px 8px 0;
+    width: 114px;
+    padding: 16px 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.ul-header {
+    background-color: #F4F0F0;
+    margin-bottom: 24px;
+}
+
+.ul-header span {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+dialog {
+    width: 476px;
+    background-color: #FFFDFD;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+
+dialog::backdrop {
+    background-color: #100F0F8F;
+}
+
+.close-dialog-img {
+    width: 16px;
+    position: absolute;
+    right: 26px;
+    top: 26px;
+    cursor: pointer;
+}
+
+.p-add-dialog {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 56px 0 40px;
+}
+
+.p-first-delete-dialog {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 56px 0 24px;
+}
+
+.p-second-delete-dialog {
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.input-add-dialog {
+    width: 365px;
+    height: 50px;
+    margin-bottom: 17px;
+    padding: 15px;
+    background-color: #FDFAFA;
+    border: solid 1px #E8E8E8;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.input-add-dialog::placeholder {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.button-success-dialog,
+.button-danger-dialog {
+    width: 365px;
+}
+
+.button-success-dialog {
+    margin: 55px 0 8px;
+}
+
+.button-danger-dialog {
+    margin-bottom: 56px;
+}

@@ -1,0 +1,27 @@
+form h1 {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 477px;
+}
+input{
+    margin-bottom: 16px;
+}
+.button-success{
+    margin: 72px 0 8px;
+}
+.button-danger{
+    margin-bottom: 96px;
+}
+span{
+    color: #1972A8;
+    cursor: pointer;
+}
