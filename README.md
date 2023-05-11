@@ -2,9 +2,9 @@
 
 # Modelo de site de agenda de contatos
 
-Esse projeto se trata de uma agenda de contatos, onde um usuário poderá se cadastrar, realizar login, adicionar e remover contatos de uma lista.
+Esse projeto se trata de uma modelo de agenda de contatos, onde um usuário poderá se cadastrar, realizar login, adicionar e remover contatos dasua lista.
 
-Acesse aqui: https://fwalterdias.github.io/Modelo-Tela-de-login/index.html
+Acesse-o aqui: https://fwalterdias.github.io/Modelo-Tela-de-login/index.html
 
 ### Sign In
 
